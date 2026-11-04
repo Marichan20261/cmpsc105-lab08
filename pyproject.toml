@@ -1,0 +1,20 @@
+[project]
+name = "cmpsc105-lab08"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Marichan20261", email = "dkawasaki20261@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.1.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+cmpsc105-lab08 = "cmpsc105_lab08:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
